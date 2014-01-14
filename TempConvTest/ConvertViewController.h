@@ -9,7 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface ConvertViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UITextField *fField;
-@property (weak, nonatomic) IBOutlet UITextField *cField;
 
 @end
