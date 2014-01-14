@@ -14,13 +14,14 @@
 		20AF4E271884ED4600CF4470 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AF4E261884ED4600CF4470 /* main.m */; };
 		20AF4E2B1884ED4600CF4470 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AF4E2A1884ED4600CF4470 /* AppDelegate.m */; };
 		20AF4E2E1884ED4600CF4470 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20AF4E2C1884ED4600CF4470 /* Main.storyboard */; };
-		20AF4E311884ED4600CF4470 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AF4E301884ED4600CF4470 /* ViewController.m */; };
 		20AF4E331884ED4600CF4470 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20AF4E321884ED4600CF4470 /* Images.xcassets */; };
 		20AF4E3A1884ED4600CF4470 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20AF4E391884ED4600CF4470 /* XCTest.framework */; };
 		20AF4E3B1884ED4600CF4470 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20AF4E1A1884ED4600CF4470 /* Foundation.framework */; };
 		20AF4E3C1884ED4600CF4470 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20AF4E1E1884ED4600CF4470 /* UIKit.framework */; };
 		20AF4E441884ED4600CF4470 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20AF4E421884ED4600CF4470 /* InfoPlist.strings */; };
 		20AF4E461884ED4600CF4470 /* TempConvTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AF4E451884ED4600CF4470 /* TempConvTestTests.m */; };
+		20AF4E511884EDAC00CF4470 /* ConvertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AF4E501884EDAC00CF4470 /* ConvertViewController.m */; };
+		20AF4E541884F1B200CF4470 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AF4E531884F1B200CF4470 /* ResultViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		20AF4E291884ED4600CF4470 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		20AF4E2A1884ED4600CF4470 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		20AF4E2D1884ED4600CF4470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		20AF4E2F1884ED4600CF4470 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		20AF4E301884ED4600CF4470 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		20AF4E321884ED4600CF4470 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		20AF4E381884ED4600CF4470 /* TempConvTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempConvTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20AF4E391884ED4600CF4470 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		20AF4E411884ED4600CF4470 /* TempConvTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TempConvTestTests-Info.plist"; sourceTree = "<group>"; };
 		20AF4E431884ED4600CF4470 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		20AF4E451884ED4600CF4470 /* TempConvTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempConvTestTests.m; sourceTree = "<group>"; };
+		20AF4E4F1884EDAC00CF4470 /* ConvertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvertViewController.h; sourceTree = "<group>"; };
+		20AF4E501884EDAC00CF4470 /* ConvertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConvertViewController.m; sourceTree = "<group>"; };
+		20AF4E521884F1B200CF4470 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		20AF4E531884F1B200CF4470 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +118,12 @@
 				20AF4E291884ED4600CF4470 /* AppDelegate.h */,
 				20AF4E2A1884ED4600CF4470 /* AppDelegate.m */,
 				20AF4E2C1884ED4600CF4470 /* Main.storyboard */,
-				20AF4E2F1884ED4600CF4470 /* ViewController.h */,
-				20AF4E301884ED4600CF4470 /* ViewController.m */,
 				20AF4E321884ED4600CF4470 /* Images.xcassets */,
 				20AF4E211884ED4600CF4470 /* Supporting Files */,
+				20AF4E4F1884EDAC00CF4470 /* ConvertViewController.h */,
+				20AF4E501884EDAC00CF4470 /* ConvertViewController.m */,
+				20AF4E521884F1B200CF4470 /* ResultViewController.h */,
+				20AF4E531884F1B200CF4470 /* ResultViewController.m */,
 			);
 			path = TempConvTest;
 			sourceTree = "<group>";
@@ -249,9 +254,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20AF4E311884ED4600CF4470 /* ViewController.m in Sources */,
+				20AF4E511884EDAC00CF4470 /* ConvertViewController.m in Sources */,
 				20AF4E2B1884ED4600CF4470 /* AppDelegate.m in Sources */,
 				20AF4E271884ED4600CF4470 /* main.m in Sources */,
+				20AF4E541884F1B200CF4470 /* ResultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
